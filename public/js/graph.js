@@ -1,6 +1,8 @@
- var chartdata = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120,
+var chartdata = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120,
   135, 150, 165, 180, 200, 220, 240, 270, 300, 330, 370, 410
 ];
+var chartdata2 = chartdata.slice().reverse();
+console.log(chartdata2); 
 
 var margin = {
   top: 30,
